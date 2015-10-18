@@ -1,0 +1,114 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 480,
+  tileset = "dungeon_grayblue",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 464,
+  width = 8,
+  height = 16,
+  pattern = "door_main.2.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 440,
+  width = 32,
+  height = 24,
+  pattern = "door_main.2.floor.1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 464,
+  width = 8,
+  height = 16,
+  pattern = "door_main.2.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 464,
+  width = 16,
+  height = 16,
+  pattern = "door_main.2",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 176,
+  width = 144,
+  height = 304,
+  pattern = "floor.4",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "floor.4",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 176,
+  width = 432,
+  height = 272,
+  pattern = "floor.4",
+}
+
+destination{
+  name = "dungeon1_1",
+  layer = 1,
+  x = 160,
+  y = 453,
+  direction = 1,
+}
+
+teletransporter{
+  name = "dungeon_out",
+  layer = 1,
+  x = 152,
+  y = 464,
+  width = 16,
+  height = 16,
+  destination_map = "chap4",
+  destination = "f_onidungeon",
+}
+
+enemy{
+  layer = 1,
+  x = 88,
+  y = 309,
+  direction = 0,
+  breed = "moblin",
+}
+
+enemy{
+  layer = 1,
+  x = 216,
+  y = 309,
+  direction = 0,
+  breed = "moblin",
+}
+
+enemy{
+  layer = 1,
+  x = 312,
+  y = 309,
+  direction = 0,
+  breed = "moblin",
+}
+

@@ -1,0 +1,380 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 480,
+  tileset = "cave",
+  music = "light_world_dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 448,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.2.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 448,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 448,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.2.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 168,
+  width = 16,
+  height = 224,
+  pattern = "floor.20",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 168,
+  width = 336,
+  height = 160,
+  pattern = "floor.12",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 336,
+  width = 96,
+  height = 16,
+  pattern = "floor.4",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 320,
+  width = 96,
+  height = 16,
+  pattern = "floor.3",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 368,
+  width = 96,
+  height = 16,
+  pattern = "floor.6",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 352,
+  width = 96,
+  height = 16,
+  pattern = "floor.5",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 312,
+  width = 272,
+  height = 80,
+  pattern = "floor.11",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 432,
+  width = 96,
+  height = 16,
+  pattern = "floor.6",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 416,
+  width = 96,
+  height = 16,
+  pattern = "floor.5",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 400,
+  width = 96,
+  height = 16,
+  pattern = "floor.4",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 384,
+  width = 96,
+  height = 16,
+  pattern = "floor.3",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 448,
+  width = 32,
+  height = 32,
+  pattern = "floor.12",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 384,
+  width = 256,
+  height = 24,
+  pattern = "wall_low.2",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 384,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 384,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 384,
+  width = 16,
+  height = 24,
+  pattern = "wall_low.2",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 304,
+  width = 24,
+  height = 176,
+  pattern = "wall_low.4",
+}
+
+tile{
+  layer = 0,
+  x = -8,
+  y = 152,
+  width = 24,
+  height = 336,
+  pattern = "wall_low.3",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 152,
+  width = 320,
+  height = 24,
+  pattern = "wall_low.1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 304,
+  width = 24,
+  height = 80,
+  pattern = "wall_low.3",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 152,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 176,
+  width = 24,
+  height = 208,
+  pattern = "wall_low.4",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 160,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.1b",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 160,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.1a",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.1.support.1",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.1.support.2",
+}
+
+teletransporter{
+  name = "t_woods2",
+  layer = 0,
+  x = 24,
+  y = 448,
+  width = 16,
+  height = 16,
+  destination_map = "woods2",
+  destination = "f_cave1",
+}
+
+destination{
+  name = "f_harbor",
+  layer = 0,
+  x = 344,
+  y = 205,
+  direction = 3,
+}
+
+enemy{
+  name = "moblin2",
+  layer = 0,
+  x = 112,
+  y = 261,
+  direction = 0,
+  breed = "moblin",
+}
+
+teletransporter{
+  name = "to_harbor",
+  layer = 0,
+  x = 336,
+  y = 168,
+  width = 16,
+  height = 16,
+  destination_map = "chap9",
+  destination = "harbor1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.2.top.border.2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.2.top.border.1",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 472,
+  width = 16,
+  height = 8,
+  pattern = "stairs_inner_up.2.top",
+}
+
+tile{
+  layer = 1,
+  x = -104,
+  y = 384,
+  width = 16,
+  height = 16,
+  pattern = "floor.12",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 448,
+  width = 16,
+  height = 32,
+  pattern = "floor.13",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 152,
+  width = 8,
+  height = 24,
+  pattern = "wall_tunnel.1.support.3",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 152,
+  width = 8,
+  height = 24,
+  pattern = "wall_tunnel.1.support.4",
+}
+
+destination{
+  name = "f_woods2",
+  layer = 1,
+  x = 32,
+  y = 421,
+  direction = 1,
+}
+

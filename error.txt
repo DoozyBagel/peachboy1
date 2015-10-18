@@ -1,0 +1,2 @@
+Error: Cannot find quest file 'sprites/entities/pot.dat'
+Error: Cannot find quest file 'sprites/entities/stone_small_white.dat'
